@@ -55,7 +55,7 @@ const Hero = () => {
   <div className="relative w-full h-full bg-gray-800 rounded-full border border-gray-800 flex justify-center overflow-hidden z-1">
 
     <img
-      src="./assets/media/ishaq.jpg.png"
+      src="/media/ishaq.jpg.png"
       alt=""
       className="absolute top-8 md:top-12 w-[85%] object-cover mix-blend-lighten"
     />

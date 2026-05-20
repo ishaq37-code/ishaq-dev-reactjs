@@ -17,7 +17,7 @@ const Hero = () => {
         title="Download Cv"
         className="  duration-300 hover:bg-purple-600 shadow-lg shadow-purple-600/50"
         />
-      <div className="flex flex-wrap items-center gap-2 md:gap-3 mt-4">
+      <div className="flex flex-wrap items-center gap-2 md:gap-3 ">
 
   {/* Instagram */}
   <div className="border-2 border-purple-700 rounded-full w-10 h-10 md:w-12 md:h-12 flex items-center justify-center hover:bg-purple-700 transition-all duration-300">

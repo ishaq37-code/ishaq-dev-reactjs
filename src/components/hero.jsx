@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="w-full md:w-1/2">
             <h1 className="text-3xl font-[font1] font-bold ">ISHAQ ALTAF</h1>
             <Typing/>
-            <p className="text-[15px] mt-4 leading-6 font-[font3] w-full md:w-1/2">I’m Ishaq, a passionate Web Developer with hands-on experience in WordPress, React.js, and frontend development. I specialize in creating clean, responsive, and performance-optimized websites for businesses and startups.</p>
+            <p className="text-[15px] mt-4 leading-6 font-[font3] w-full w-1/2">I’m Ishaq, a passionate Web Developer with hands-on experience in WordPress, React.js, and frontend development. I specialize in creating clean, responsive, and performance-optimized websites for businesses and startups.</p>
        <div className="flex flex-col sm:flex-row sm:items-center gap-6 mt-6">
         <Button 
         title="Download Cv"

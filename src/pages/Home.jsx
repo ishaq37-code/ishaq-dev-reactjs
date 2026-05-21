@@ -7,6 +7,7 @@ import { CgIfDesign, CgWebsite } from "react-icons/cg"
 import Heading from "../components/Heading"
 import WhyHireMe from "../components/WhyHireMe"
 import LatestProject from "../components/projects/Projects"
+import ContactFrom from "../components/form/Form"
 
 
 
@@ -55,6 +56,7 @@ const Home = () => {
       </div>
       <WhyHireMe/>
       <LatestProject/>
+      <ContactFrom/>
     </div>
   )
 }

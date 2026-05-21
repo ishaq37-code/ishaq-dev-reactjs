@@ -153,7 +153,7 @@ const LatestProject = () => {
   }
 
   return (
-    <div className="w-full min-h-screen text-white px-6 lg:px-20 py-16 overflow-hidden">
+    <div className="w-full min-h-screen text-white px-6 lg:px-10 py-16 overflow-hidden">
 
       {/* HEADING */}
       <div className="text-center mb-16">

@@ -10,7 +10,7 @@ const ContactFrom = () => {
 
   
   return (
-    <div className="w-full min-h-screen  text-white px-6 lg:px-20 py-16">
+    <div className="w-full min-h-screen  text-white px-6 lg:px-10 py-16">
 
       {/* MAIN GRID */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-start">

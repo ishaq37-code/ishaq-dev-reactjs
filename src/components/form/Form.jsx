@@ -19,7 +19,7 @@ const ContactFrom = () => {
         <div>
 
           {/* HEADING */}
-          <h1 className="text-4xl lg:text-6xl font-bold mb-16">
+          <h1 className="text-4xl lg:text-5xl font-bold mb-16">
             Lets Work Together
           </h1>
 
@@ -86,7 +86,7 @@ const ContactFrom = () => {
         <div>
 
           {/* HEADING */}
-          <h1 className="text-4xl lg:text-6xl font-bold mb-10 text-center">
+          <h1 className="text-4xl lg:text-5xl font-bold mb-10 text-center">
             Contact <span className="text-purple-600">Me!</span>
           </h1>
 

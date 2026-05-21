@@ -6,6 +6,7 @@ import { FiFigma } from "react-icons/fi"
 import { CgIfDesign, CgWebsite } from "react-icons/cg"
 import Heading from "../components/Heading"
 import WhyHireMe from "../components/WhyHireMe"
+import LatestProject from "../components/projects/Projects"
 
 
 
@@ -53,6 +54,7 @@ const Home = () => {
       </div>
       </div>
       <WhyHireMe/>
+      <LatestProject/>
     </div>
   )
 }

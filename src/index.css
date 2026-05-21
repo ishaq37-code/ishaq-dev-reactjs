@@ -32,3 +32,6 @@
   scrollbar-width: thin;
   scrollbar-color: #7e22ce transparent;
 }
+.stroke-text {
+  -webkit-text-stroke: 2px white;
+}

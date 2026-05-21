@@ -5,6 +5,7 @@ import { FaStore } from "react-icons/fa6"
 import { FiFigma } from "react-icons/fi"
 import { CgIfDesign, CgWebsite } from "react-icons/cg"
 import Heading from "../components/Heading"
+import WhyHireMe from "../components/WhyHireMe"
 
 
 
@@ -51,6 +52,7 @@ const Home = () => {
 
       </div>
       </div>
+      <WhyHireMe/>
     </div>
   )
 }

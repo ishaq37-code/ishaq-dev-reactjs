@@ -8,7 +8,7 @@ const ServicesCards = ({heading,paragaph, icons: Icon}) => {
   <div className=" flex items-center justify-between">
 
     {/* ICON */}
-    <div className="w-20 h-20 text-6xl flex items-center justify-center rounded-full text-gray-300 group-hover:text-purple-400 transition-colors duration-300">
+    <div className="w-20 h-20 text-6xl flex items-center justify-center rounded-full text-white group-hover:text-purple-400 transition-colors duration-300">
       {Icon && <Icon />}
     </div>
 

@@ -20,23 +20,23 @@ const Hero = () => {
       <div className="flex flex-wrap items-center gap-2 md:gap-3 ">
 
   {/* Instagram */}
-  <div className="border-2 border-purple-700 rounded-full w-10 h-10 md:w-12 md:h-12 flex items-center justify-center hover:bg-purple-700 transition-all duration-300">
-    <BsInstagram className="text-lg md:text-2xl text-purple-700 hover:text-white" />
+  <div className=" group border-2 border-purple-700 rounded-full w-10 h-10 md:w-12 md:h-12 flex items-center justify-center hover:bg-purple-700 transition-all duration-300">
+    <BsInstagram className="text-lg md:text-2xl text-purple-700 duration-300 group-hover:text-white" />
   </div>
 
   {/* Facebook */}
-  <div className="border-2 border-purple-700 rounded-full w-10 h-10 md:w-12 md:h-12 flex items-center justify-center hover:bg-purple-700 transition-all duration-300">
-    <FaFacebook className="text-lg md:text-2xl text-purple-700 hover:text-white" />
+  <div className=" group  border-2 border-purple-700 rounded-full w-10 h-10 md:w-12 md:h-12 flex items-center justify-center hover:bg-purple-700 transition-all duration-300">
+    <FaFacebook className="text-lg md:text-2xl text-purple-700 duration-300 group-hover:text-white" />
   </div>
 
   {/* GitHub */}
-  <div className="border-2 border-purple-700 rounded-full w-10 h-10 md:w-12 md:h-12 flex items-center justify-center hover:bg-purple-700 transition-all duration-300">
-    <FaGithub className="text-lg md:text-2xl text-purple-700 hover:text-white" />
+  <div className=" group border-2 border-purple-700 rounded-full w-10 h-10 md:w-12 md:h-12 flex items-center justify-center hover:bg-purple-700 transition-all duration-300">
+    <FaGithub className="text-lg md:text-2xl text-purple-700 duration-300 group-hover:text-white" />
   </div>
 
   {/* WhatsApp */}
-  <div className="border-2 border-purple-700 rounded-full w-10 h-10 md:w-12 md:h-12 flex items-center justify-center hover:bg-purple-700 transition-all duration-300">
-    <FaWhatsapp className="text-lg md:text-2xl text-purple-700 hover:text-white" />
+  <div className=" group border-2 border-purple-700 rounded-full w-10 h-10 md:w-12 md:h-12 flex items-center justify-center hover:bg-purple-700 transition-all duration-300">
+    <FaWhatsapp className="text-lg md:text-2xl text-purple-700 duration-300 group   group-hover:text-white" />
   </div>
 
 </div>

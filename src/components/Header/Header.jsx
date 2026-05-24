@@ -68,7 +68,7 @@ const Header = () => {
   return (
     <div>
       {/* DESKTOP HEADER */}
-      <div className="flex items-center justify-between px-10 py-4 bg-gray-700">
+      <div className="flex items-center justify-between px-10 py-4 bg-gray-900">
         
         {/* LOGO */}
         <h1 className="text-5xl font-[font1] text-white">

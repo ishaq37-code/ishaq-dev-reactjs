@@ -1,13 +1,12 @@
 import { useState, useEffect, useRef } from "react"
 import gsap from "gsap"
 
-import Heading from "./Heading"
-import Cards from "./whyHireCards/ExperincedCards"
-import SkillCard from "./whyHireCards/SkillsCards"
-import AboutMe from "./whyHireCards/AboutMe"
-
+import Heading from "../Headings/Heading"
+import SkillCard from "../cards/whyHireCards/SkillsCards"
 import { FaFigma, FaHtml5, FaJava, FaReact, FaWordpress } from "react-icons/fa"
 import { FaCss } from "react-icons/fa6"
+import Cards from "../cards/whyHireCards/ExperincedCards"
+import AboutMe from "../cards/whyHireCards/AboutMe"
 
 const WhyHireMe = () => {
   const [Buttonss, setButtonss] = useState("Experince")
@@ -77,6 +76,7 @@ const WhyHireMe = () => {
               <Cards year="2022–2023" title="Frontend Developer" company="ABC Corp" description="Created responsive UI using HTML, CSS, and JavaScript." />
               <Cards year="2024–2025" title="eCommerce Specialist" company="Freelance" description="Built WooCommerce and Shopify online stores." />
               <Cards year="2023–2024" title="UI Designer" company="Freelance" description="Designed clean and modern interfaces in Figma." />
+              
               <Cards year="2025–Present" title="Web Developer" company="Remote" description="Working on modern, performance-focused web projects." />
             </div>
           </div>
@@ -95,6 +95,7 @@ const WhyHireMe = () => {
               <SkillCard icon={FaReact} label="React" />
               <SkillCard icon={FaFigma} label="Figma" />
               <SkillCard icon={FaJava} label="JavaScript" />
+              
             </div>
           </div>
         )}

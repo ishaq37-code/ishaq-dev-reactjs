@@ -1,6 +1,6 @@
 import { BsInstagram } from "react-icons/bs"
-import Button from "./Button"
-import Typing from "./Typing"
+import Button from "../Buttons/Button"
+import Typing from "../Headings/Typing"
 import { FaFacebook } from "react-icons/fa"
 import { FaGithub, FaWhatsapp } from "react-icons/fa6"
 

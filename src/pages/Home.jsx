@@ -1,13 +1,13 @@
 import { FaShopify, FaWordpress } from "react-icons/fa"
-import Hero from "../components/hero"
-import ServicesCards from "../components/ServicesCards"
+import Hero from "../components/hero/hero"
+import ServicesCards from "../components/cards/ServicesCards"
 import { FaStore } from "react-icons/fa6"
 import { FiFigma } from "react-icons/fi"
 import { CgIfDesign, CgWebsite } from "react-icons/cg"
-import Heading from "../components/Heading"
-import WhyHireMe from "../components/WhyHireMe"
+import Heading from "../components/Headings/Heading"
+import WhyHireMe from "../components/Why-Hire-Me/WhyHireMe"
 import LatestProject from "../components/projects/Projects"
-import ContactFrom from "../components/form/Form"
+import ContactFrom from "../components/Form/Form"
 
 
 
@@ -55,6 +55,7 @@ const Home = () => {
       </div>
       </div>
       <WhyHireMe/>
+      
       <LatestProject/>
       <ContactFrom/>
     </div>

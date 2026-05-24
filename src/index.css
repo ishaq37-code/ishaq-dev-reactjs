@@ -21,7 +21,36 @@
 .custom-scrollbar::-webkit-scrollbar-track {
   background: transparent;
 }
+/* WIDTH */
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  width: 8px;
+}
 
+/* TRACK */
+::-webkit-scrollbar-track {
+  background: #1f2937;
+}
+
+/* THUMB */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    to bottom,
+    #a855f7,
+    #7e22ce
+  );
+
+  border-radius: 999px;
+}
+
+/* HOVER */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    to bottom,
+    #c084fc,
+    #9333ea
+  );
+}
 .custom-scrollbar::-webkit-scrollbar-thumb {
   background: #7e22ce;
   border-radius: 999px;

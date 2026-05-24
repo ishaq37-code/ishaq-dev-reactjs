@@ -93,7 +93,7 @@ const ContactFrom = () => {
           {/* FORM BOX */}
           <form
            
-            className="bg-gray-700 p-8 rounded-3xl"
+            className="bg-gray-900 p-8 rounded-3xl"
           >
 
             {/* INPUT */}
@@ -102,7 +102,7 @@ const ContactFrom = () => {
               name="fullname"
              
               placeholder="Full Name"
-              className="w-full h-14 px-5 rounded-xl bg-[#111827] outline-none border border-transparent focus:border-purple-600 mb-5"
+              className="w-full h-14 px-5 rounded-xl bg-gray-800 outline-none border border-transparent focus:border-purple-600 mb-5"
             />
 
             {/* EMAIL */}
@@ -111,7 +111,7 @@ const ContactFrom = () => {
               name="email"
               
               placeholder="Email Address"
-              className="w-full h-14 px-5 rounded-xl bg-[#111827] outline-none border border-transparent focus:border-purple-600 mb-5"
+              className="w-full h-14 px-5 rounded-xl bg-gray-800 outline-none border border-transparent focus:border-purple-600 mb-5"
             />
 
             {/* PHONE */}
@@ -120,7 +120,7 @@ const ContactFrom = () => {
               name="phone"
               
               placeholder="Phone Number"
-              className="w-full h-14 px-5 rounded-xl bg-[#111827] outline-none border border-transparent focus:border-purple-600 mb-5"
+              className="w-full h-14 px-5 rounded-xl bg-gray-800 outline-none border border-transparent focus:border-purple-600 mb-5"
             />
 
             {/* MESSAGE */}
@@ -129,7 +129,7 @@ const ContactFrom = () => {
               
               placeholder="Your Message"
               rows="7"
-              className="w-full p-5 rounded-xl bg-[#111827] outline-none border border-transparent focus:border-purple-600 mb-8 resize-none"
+              className="w-full p-5 rounded-xl bg-gray-800 outline-none border border-transparent focus:border-purple-600 mb-8 resize-none"
             ></textarea>
 
             {/* BUTTON */}

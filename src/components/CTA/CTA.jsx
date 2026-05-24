@@ -7,14 +7,14 @@ const CTA = () => {
 
       {/* CONTAINER */}
       <div
-        className="max-w-6xl mx-auto bg-gradient-to-r from-purple-600/20 to-purple-900/10
+        className="max-w-6xl mx-auto bg-linear-to-r from-purple-600/20 to-purple-900/10
         border border-purple-500/20 rounded-[40px] p-10 md:p-16
         flex flex-col lg:flex-row items-center justify-between gap-10
         overflow-hidden relative"
       >
 
         {/* GLOW */}
-        <div className="absolute w-72 h-72 bg-purple-600/20 blur-[120px] rounded-full top-[-80px] left-[-80px]"></div>
+        <div className="absolute w-72 h-72 bg-purple-600/20 blur-[120px] rounded-full top-20 left-20"></div>
 
         {/* LEFT */}
         <div className="relative z-10">

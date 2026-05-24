@@ -1,5 +1,5 @@
 import { FaShopify, FaWordpress } from "react-icons/fa"
-import Hero from "../components/hero/hero"
+import Hero from "../components/Hero/hero"
 import ServicesCards from "../components/cards/ServicesCards"
 import { FaStore } from "react-icons/fa6"
 import { FiFigma } from "react-icons/fi"

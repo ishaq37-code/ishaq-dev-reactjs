@@ -18,6 +18,6 @@ const ProjectsHero = () => {
 
     </div>
   )
-}
+}  
 
 export default ProjectsHero;

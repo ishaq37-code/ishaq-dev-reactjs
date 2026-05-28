@@ -3,15 +3,16 @@ import gsap from "gsap"
 
 import Heading from "../Headings/Heading"
 import SkillCard from "../cards/whyHireCards/SkillsCards"
-import { FaFigma, FaHtml5, FaJava, FaReact, FaWordpress } from "react-icons/fa"
+import { FaFigma, FaHtml5, FaReact, FaWordpress } from "react-icons/fa"
+import { SiJavascript } from "react-icons/si"
 import { FaCss } from "react-icons/fa6"
 import Cards from "../cards/whyHireCards/ExperincedCards"
 import AboutMe from "../cards/whyHireCards/AboutMe"
 
 const WhyHireMe = () => {
-  const [Buttonss, setButtonss] = useState("Experince")
+  const [Buttonss, setButtonss] = useState("Experience")
 
-  const buttons = ["Experince", "Skills", "Eduacation", "About Me"]
+  const buttons = ["Experience", "Skills", "Education", "About Me"]
 
   const contentRef = useRef(null)
 
@@ -67,9 +68,9 @@ const WhyHireMe = () => {
       <div ref={contentRef} className="w-full lg:w-1/2">
 
         {/* EXPERIENCE */}
-        {Buttonss === "Experince" && (
+        {Buttonss === "Experience" && (
           <div>
-            <Heading heading01="my" heading02="Experince" className="text-left mb-5" />
+            <Heading heading01="my" heading02="Experience" className="text-left mb-5" />
             <p>Hands-on experience in web development, eCommerce, and UI design.</p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 mt-10">
@@ -94,14 +95,14 @@ const WhyHireMe = () => {
               <SkillCard icon={FaWordpress} label="WordPress" />
               <SkillCard icon={FaReact} label="React" />
               <SkillCard icon={FaFigma} label="Figma" />
-              <SkillCard icon={FaJava} label="JavaScript" />
+              <SkillCard icon={SiJavascript} label="JavaScript" />
               
             </div>
           </div>
         )}
 
         {/* EDUCATION */}
-        {Buttonss === "Eduacation" && (
+        {Buttonss === "Education" && (
           <div>
             <Heading heading01="my" heading02="Education" className="text-left mb-5" />
             <p>My academic and professional learning journey.</p>

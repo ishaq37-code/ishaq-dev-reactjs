@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react";
 
 const Typing = () => {
 
-     const words = ["Frontend", "Backend", "WordPress", "React,Js"]; 
+     const words = ["Frontend", "Backend", "WordPress", "React.js"]; 
      const textRef= useRef(null)
 
     useEffect(() => {
@@ -21,8 +21,8 @@ const Typing = () => {
         
         gsap.fromTo(
             el,
-            {opacity:0,  x:10},
-            {opacity:1, y:0, duration:1}
+            {opacity:0, x:10},
+            {opacity:1, x:0, duration:1}
         );
         
         }
@@ -34,7 +34,7 @@ const Typing = () => {
 
          const interval= setInterval(animate, 1600)
          return ()=> clearInterval(interval)
-    },)
+    }, [])
   return (
     
      

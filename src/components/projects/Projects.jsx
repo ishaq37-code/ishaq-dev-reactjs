@@ -3,11 +3,11 @@ import { useEffect, useRef, useState } from "react"
 import gsap from "gsap"
 
 import {
-  FaArrowUp,
   FaArrowLeft,
   FaArrowRight,
   FaGithub,
 } from "react-icons/fa"
+import { FaArrowUpRightFromSquare } from "react-icons/fa6"
 
 const LatestProject = () => {
 
@@ -212,13 +212,23 @@ const LatestProject = () => {
             className="flex items-center gap-5"
           >
 
-            <button className="w-20 h-20 rounded-full bg-gray-500 flex items-center justify-center text-4xl hover:bg-purple-800 hover:text-black transition-all duration-300">
-              <FaArrowUp />
-            </button>
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-20 h-20 rounded-full bg-gray-500 flex items-center justify-center text-4xl hover:bg-purple-800 hover:text-black transition-all duration-300"
+            >
+              <FaArrowUpRightFromSquare />
+            </a>
 
-            <button className="w-20 h-20 rounded-full bg-gray-500 flex items-center justify-center text-4xl hover:bg-purple-800 hover:text-black transition-all duration-300">
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-20 h-20 rounded-full bg-gray-500 flex items-center justify-center text-4xl hover:bg-purple-800 hover:text-black transition-all duration-300"
+            >
               <FaGithub />
-            </button>
+            </a>
 
           </div>
         </div>

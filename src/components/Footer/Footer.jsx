@@ -40,21 +40,21 @@ const Footer = () => {
           {/* SOCIALS */}
           <div className="flex items-center gap-4 mt-8">
 
-            <div className="group border border-purple-600 w-11 h-11 rounded-full flex items-center justify-center hover:bg-purple-600 transition-all duration-300 cursor-pointer">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="group border border-purple-600 w-11 h-11 rounded-full flex items-center justify-center hover:bg-purple-600 transition-all duration-300">
               <FaInstagram className="text-xl text-purple-500 group-hover:text-white" />
-            </div>
+            </a>
 
-            <div className="group border border-purple-600 w-11 h-11 rounded-full flex items-center justify-center hover:bg-purple-600 transition-all duration-300 cursor-pointer">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="group border border-purple-600 w-11 h-11 rounded-full flex items-center justify-center hover:bg-purple-600 transition-all duration-300">
               <FaFacebook className="text-xl text-purple-500 group-hover:text-white" />
-            </div>
+            </a>
 
-            <div className="group border border-purple-600 w-11 h-11 rounded-full flex items-center justify-center hover:bg-purple-600 transition-all duration-300 cursor-pointer">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="group border border-purple-600 w-11 h-11 rounded-full flex items-center justify-center hover:bg-purple-600 transition-all duration-300">
               <FaGithub className="text-xl text-purple-500 group-hover:text-white" />
-            </div>
+            </a>
 
-            <div className="group border border-purple-600 w-11 h-11 rounded-full flex items-center justify-center hover:bg-purple-600 transition-all duration-300 cursor-pointer">
+            <a href="https://wa.me/923193325112" target="_blank" rel="noopener noreferrer" className="group border border-purple-600 w-11 h-11 rounded-full flex items-center justify-center hover:bg-purple-600 transition-all duration-300">
               <FaWhatsapp className="text-xl text-purple-500 group-hover:text-white" />
-            </div>
+            </a>
 
           </div>
 

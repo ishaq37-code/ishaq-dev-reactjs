@@ -92,7 +92,11 @@ const ContactFrom = () => {
 
           {/* FORM BOX */}
           <form
-           
+            onSubmit={(e) => {
+              e.preventDefault()
+              alert("Message sent! I will get back to you soon.")
+              e.target.reset()
+            }}
             className="bg-gray-900 p-8 rounded-3xl"
           >
 

@@ -3,15 +3,15 @@
 
 @font-face {
     font-family: font1;
-    src: url(../public/fonts/Poppins-Bold.ttf);
+    src: url(/fonts/Poppins-Bold.ttf);
 }
 @font-face {
     font-family: font2;
-    src: url(../public/fonts/Poppins-SemiBold.ttf);
+    src: url(/fonts/Poppins-SemiBold.ttf);
 }
 @font-face {
     font-family: font3;
-    src: url(../public/fonts/Poppins-Light.ttf);
+    src: url(/fonts/Poppins-Light.ttf);
 }
 /* Chrome, Edge, Safari */
 .custom-scrollbar::-webkit-scrollbar {

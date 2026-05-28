@@ -1,6 +1,6 @@
 
-import ContactFrom from "../components/Form/Form"
-import FAQ from "../components/Form/FormContact"
+import ContactFrom from "../components/form/Form"
+import FAQ from "../components/form/FormContact"
 import ContactHero from "../components/Hero/HeroContact"
 import AvailabilitySection from "../components/other/AvailableSection"
 import WhyWorkWithMe from "../components/Why-Work-with-Me/WhyWorkWithMe"

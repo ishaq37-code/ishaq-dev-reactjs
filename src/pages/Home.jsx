@@ -7,7 +7,7 @@ import { CgIfDesign, CgWebsite } from "react-icons/cg"
 import Heading from "../components/Headings/Heading"
 import WhyHireMe from "../components/Why-Hire-Me/WhyHireMe"
 import LatestProject from "../components/projects/Projects"
-import ContactFrom from "../components/Form/Form"
+import ContactFrom from "../components/form/Form"
 
 
 

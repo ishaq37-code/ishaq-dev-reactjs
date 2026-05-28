@@ -26,16 +26,14 @@ const FeaturedProject = () => {
       >
 
         {/* IMAGE SIDE */}
-        <div className="overflow-hidden w-140 h-100 rounded-[30px] group">
-
-          <img
-            src="https://i.pinimg.com/736x/9d/5b/05/9d5b0545e67c72fec322ce61cb078260.jpg"
-            alt="project"
-            className="w-full h-full object-cover rounded-[30px]
-            group-hover:scale-105 transition-all duration-500"
-          />
-
-        </div>
+        <div className="overflow-hidden w-full sm:w-140 h-64 sm:h-100 rounded-[30px] group">
+  <img
+    src="https://i.pinimg.com/736x/9d/5b/05/9d5b0545e67c72fec322ce61cb078260.jpg"
+    alt="project"
+    className="w-full h-full object-cover rounded-[30px]
+    group-hover:scale-105 transition-all duration-500"
+  />
+</div>
 
         {/* CONTENT SIDE */}
         <div>
